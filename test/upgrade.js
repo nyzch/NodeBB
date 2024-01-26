@@ -97,7 +97,8 @@ describe('Upgrade', () => {
 
     //     it.only('should write "skipped" for outdated scripts', async () => {
     //         // used ChatGPT
-    //         // const scriptTimestamp = 1609459200000/* the script's timestamp, e.g., 1609459200000 for Jan 1, 2021 */;
+    //         // /* the script's timestamp, e.g., 1609459200000 for Jan 1, 2021 */
+    //         // const scriptTimestamp = 1609459200000;
     //         // const laterSchemaDate = scriptTimestamp + 1000; // 1 second later
 
     //         // // Mock the db.get to return a timestamp that will cause the script to be skipped
